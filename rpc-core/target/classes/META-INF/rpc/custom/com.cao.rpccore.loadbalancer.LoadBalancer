@@ -1,0 +1,3 @@
+roundRobin=com.cao.rpccore.loadbalancer.RoundRobinLoadBalancer
+random=com.cao.rpccore.loadbalancer.RandomLoadBalancer
+consistentHash=com.cao.rpccore.loadbalancer.ConsistentHashLoadBalancer

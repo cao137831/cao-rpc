@@ -1,0 +1,4 @@
+jdk=com.cao.rpccore.serializer.JdkSerializer
+json=com.cao.rpccore.serializer.JsonSerializer
+kryo=com.cao.rpccore.serializer.KryoSerializer
+hessian=com.cao.rpccore.serializer.HessianSerializer

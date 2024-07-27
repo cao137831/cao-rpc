@@ -1,0 +1,4 @@
+rpc:
+  name: cao-rpc
+  version: 1.1.0
+  port: 8081

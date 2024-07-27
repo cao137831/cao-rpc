@@ -1,0 +1,4 @@
+failBack=com.cao.rpccore.fault.tolerant.FailBackTolerantStrategy
+failFast=com.cao.rpccore.fault.tolerant.FailFastTolerantStrategy
+failOver=com.cao.rpccore.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.cao.rpccore.fault.tolerant.FailSafeTolerantStrategy
