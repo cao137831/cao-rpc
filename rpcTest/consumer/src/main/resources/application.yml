@@ -1,0 +1,16 @@
+rpc:
+  name: cao-rpc
+  version: 1.1.0
+  serverHost: 127.0.0.1
+  serverPort: 8088
+  mock: false
+  serializer: kryo
+  registryConfig:
+    registry: etcd
+    address: http://192.168.56.101:2379
+    username: cao123
+    password: 12345678
+    timeout: 10000
+  loadBalancerKeys: roundRobin
+  retryStrategyKeys: no
+  tolerantStrategyKeys: failSafe
